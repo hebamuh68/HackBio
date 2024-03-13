@@ -11,6 +11,6 @@ Dorothy Hodgkin
 2. Ahmed Hasan  <br>  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-hasan-256265257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedsArena)
 
-3. Lillian Mwinja http://www.linkedin.com/in/lillian-mwinja-6b9301176
-   https://github.com/lillianmwinja
+3. Lillian Mwinja  <br>  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)] (http://www.linkedin.com/in/lillian-mwinja-6b9301176)
+  [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)] (https://github.com/lillianmwinja)
 5. 
