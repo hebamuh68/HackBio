@@ -55,6 +55,3 @@ echo "Total number of nucleotides: $total"
 # Calculate and print the percentage of GC pairs
 percentage=$(echo "scale=2; $GC / $total * 100" | bc)
 echo "Percentage of GC pairs: $percentage"
-
-
-
