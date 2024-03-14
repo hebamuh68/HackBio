@@ -13,4 +13,6 @@ Dorothy Hodgkin
 
 3. Lillian Mwinja  <br>  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/lillian-mwinja-6b9301176)
   [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)](https://github.com/lillianmwinja)
-5. 
+
+5. Bashira Naa Kwarley Quartey  <br>  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bnkquartey)
+  [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)](https://github.com/Bashiranaa)
