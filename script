@@ -1,6 +1,6 @@
 Script for stage 1
 
-mkdir AHMED
+mkdir dorothy-hodgkin
 mkdir biocomputing 
 cd biocomputing
 wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
