@@ -1,0 +1,50 @@
+#My favourite Gene
+BRCA
+
+#Downloading the gene
+wget -O BRCA.fasta "https://www.ncbi.nlm.nih.gov/nuccore/MW716260.1?report=fasta"
+
+#Number of lines (without headers)
+
+grep -v '^>' BRCA.fasta | wc -l
+
+#number of times T occur
+
+grep -o 'A' BRCA.fasta | wc -l  
+
+#number of times G occur
+
+grep -o 'G' BRCA.fasta | wc -l
+
+#number of times C occur
+
+ grep -o 'C' BRCA.fasta | wc -l
+
+#number of times T occur
+
+ grep -o 'T' BRCA.fasta | wc -l 
+
+ 
+ count_A=$(grep -o 'A' BRCA.fasta | wc -l)
+ count_G=$(grep -o 'G' BRCA.fasta | wc -l) 
+ count_C=$(grep -o 'C' BRCA.fasta | wc -l)
+ count_T=$(grep -o 'T' BRCA.fasta | wc -l)
+
+#Calculating GC content
+
+ total_GC=$((count_G + count_C))
+ total_nucleotides=$(grep -v '^>' BRCA.fasta | tr -d '\n' | wc -c) 
+ GC_percentage=$(echo "scale=2; ($total_GC / $total_nucleotides) * 100" | bc)
+  GC_content=$(echo | awk "{print ($total_GC / $total_nucleotides) * 100}")
+echo "GC Content: $GC_content%"
+
+#Nucleotide file
+
+ touch shira.fasta
+
+# Echo number of A,G,C,T into nucleotide file
+
+ echo "$count_A" >> shira.fasta
+ echo "$count_G" >> shira.fasta
+ echo "$count_C" >> shira.fasta
+ echo "$count_T" >> shira.fasta
